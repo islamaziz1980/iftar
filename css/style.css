@@ -425,6 +425,7 @@ ul.radoz li {width: 90%;}
 
 @media only screen and (max-width: 425px){
   .head-bg {background: url(../img/425.png) no-repeat center right;height: 178px;}
+.carto {margin-right: 28% !important;}
 }
 
 
@@ -435,8 +436,9 @@ ul.radoz li {width: 90%;}
 .box-buttonz {right: 8%;}
 .box-buttonz span {font-size: 0px;}
 ul.radoz li {width: 100%;}
-
+.carto {margin-right: 23% !important;}
 }
 @media only screen and (max-width: 320px){
   .head-bg {background: url(../img/320.png) no-repeat center right;height: 152px;}
+
 }
