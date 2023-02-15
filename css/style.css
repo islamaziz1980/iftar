@@ -2,7 +2,7 @@
 body{font-family: 'Tajawal', sans-serif; color:#6C727F; font-weight:400; font-size: 14px;}
 .rido  { float: right;}
 .head-bg-cont{margin-left: 15px; margin-right: 15px;}
-.head-bg{background: url(../img/header.svg) no-repeat center center ;
+.head-bg{background: url(../img/header.svg) no-repeat center right ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -379,12 +379,21 @@ font-size: 20px;
     ul.radoz li {width: 46%;}
     .v-rad, .k-rad, .a-rad {  max-width: 100px;}
     .form-group {margin-bottom: 20px;}
+    .head-bg {background: url(../img/992.png) no-repeat center right;height: 375px;}
 }
 @media only screen and (max-width: 750px){
 
   .count {width: 80%;}
   ul.radoz li {width: 50%;}
 }
+@media only screen and (max-width: 700px){
+  .head-bg {background: url(../img/700.png) no-repeat center right;height: 286px;}
+}
+
+@media only screen and (max-width: 650px){
+  .head-bg {background: url(../img/650.png) no-repeat center right;height: 245px;}
+}
+
 @media only screen and (max-width: 570px)
 {
   .carto {margin-right: 33% !important;}
@@ -396,19 +405,38 @@ font-size: 20px;
   .tio {width: 50%;}
 }
 
+@media only screen and (max-width: 550px){
+  .head-bg {background: url(../img/550.png) no-repeat center right;height: 208px;}
+}
+
+@media only screen and (max-width: 500px){
+  .head-bg {background: url(../img/500.png) no-repeat center right;height: 189px;}
+}
+
 @media only screen and (max-width: 475px)
 {
+  .head-bg {background: url(../img/475.png) no-repeat center right;height: 188px;}
 .box-buttonz {right: 8%;}
 .box-buttonz span {font-size: 9px;}
 .count {width: 70%;}
 ul.radoz li {width: 90%;}
 .face-log, .goog-log {font-size: 11px;}
 }
+
+@media only screen and (max-width: 425px){
+  .head-bg {background: url(../img/425.png) no-repeat center right;height: 178px;}
+}
+
+
 @media only screen and (max-width: 375px)
 {
+    .head-bg {background: url(../img/375.png) no-repeat center right;height: 178px;}
   .panel-heading {font-size: 11px;}
 .box-buttonz {right: 8%;}
 .box-buttonz span {font-size: 0px;}
 ul.radoz li {width: 100%;}
 
+}
+@media only screen and (max-width: 320px){
+  .head-bg {background: url(../img/320.png) no-repeat center right;height: 152px;}
 }
